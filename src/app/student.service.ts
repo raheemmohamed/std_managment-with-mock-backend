@@ -22,7 +22,7 @@ const httpOptions = {
 export class StudentService {
   // url = 'assets/backendAPI/stdDataAPI.json';
 
-  url = 'http://localhost:4200/stdApi/student';
+  url = 'https://std-system.herokuapp.com/stdApi/student';
 
   globalStudenData;
 
